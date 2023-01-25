@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(245,245,245);
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+header{
+  color: #fff;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+}
+#logo{
+  margin-left: 4%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+#logo img{
+  margin-right: 5px;
+  height: 28px;
+  width: 28px;
+}
+
+header ul{
+  margin-right: 4%;
+  padding: 0;
+  display: flex;
+}
+header ul li{
+  list-style: none;
+  margin: 0 5px;
+}
+
+header ul li:hover{
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+
+#container{
+  text-align: center;
+}
+#container .sub-tema{
+  text-align: start;
+  padding: 0 20px;
+}
